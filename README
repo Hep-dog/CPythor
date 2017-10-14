@@ -1,0 +1,17 @@
+Data  :     2017/10/15
+Author:     Shenpx
+Email :     shenpx@ihep.ac.cn
+
+The codes here are the templates that can analysis the events with XGB. 
+the XGB can be replace with other deep learning algorithm, which will be studied later.
+
+1) Get_WW.C  --> trans the root file to csv file as the XGB input.
+
+2) WWZZ.py   --> The main function to classify the events with XGB.
+
+3) Save.py   --> The function can save the results of classify to csv file.
+
+4) call_function.cpp  --> The template can run python with C++. 
+   (This is vary important in the later work, which can be added in event analysis procedure!)
+
+5) UScsvToRoot.C  --> The template that trans the classify results(csv format) to root.
